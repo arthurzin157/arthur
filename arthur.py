@@ -2,18 +2,18 @@ nome = input("qual eo seu nome? ")
 temperatura = float(input("qual e a temperatura? "))
 
 
-if temperatura >= 20:
+if 20 <= temperatura <= 40:
    print(f"{nome} Quente")
 
-elif temperatura <=20:
+elif 20>temperatura <=40:
    print(f"{nome} frio")
 
-elif temperatura <=5:
+elif 0< temperatura <5:
    print(f"{nome} gelado") 
 
 else:
-   print(f"{nome}maior que isso: noix morre")  
+   print("noix morre")
 
-
-
+if temperatura >=20 and temperatura<=40:
+   print("esta quente ")
 
